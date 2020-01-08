@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.fchavez.clinicaApi.api.models.entity.Patient;
 import com.fchavez.clinicaApi.api.models.service.PatientService;
 
-@CrossOrigin(origins = ("https://clinica-indol-pi.now.sh"))
+@CrossOrigin(origins = ("https://clinica-frontend-01.herokuapp.com"))
 @RestController
 @RequestMapping("/patients")
 public class PatientController {
